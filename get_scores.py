@@ -2,7 +2,7 @@
 Gets scorecard data from online and writes to .txt files for OBS live scorecard
 """
 import time
-from fns import get_data, write_files
+from utils import get_data, write_files
 
 # * INSTRUCTIONS for run.py (as per instructions.md), for Griff/anyone else trying to run during varsity
 

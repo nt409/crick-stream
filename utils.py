@@ -1,3 +1,5 @@
+"""Helper functions for get_scores.py"""
+
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 
@@ -127,11 +129,3 @@ def write_file(text, name):
     file_ = open(file_name, 'w')
     file_.writelines(text)
     print(f"writing: {text}")
-
-
-if __name__ == "__main__":
-    URL = "https://cambridgeuniversity.play-cricket.com/website/results/5690698"
-
-    text = get_data(URL)
-
-    print(text)
