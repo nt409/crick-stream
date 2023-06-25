@@ -7,7 +7,8 @@
     "settings": {
         "files.exclude": {
             "__pycache__": true,
-            "Pics": true,
+            "pics": true,
+            "archive": true,
             // ".gitignore": true,
         }
     },
