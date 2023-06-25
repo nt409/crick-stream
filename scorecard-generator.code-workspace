@@ -8,6 +8,7 @@
         "files.exclude": {
             "__pycache__": true,
             "Pics": true,
+            // ".gitignore": true,
         }
     },
 }
