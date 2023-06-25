@@ -27,7 +27,7 @@ URL = "https://cambridgeuniversity.play-cricket.com/website/results/5690698"
 # * SLEEP_TIME: amount of time between checks of the website (in seconds)
 # long SLEEP_TIME reduces number of times we spam the website, probably a good idea
 
-SLEEP_TIME = 40
+SLEEP_TIME = 60
 
 
 # ! don't change anything below here!
